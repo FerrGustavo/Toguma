@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+header {
+    size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    line-height: 5px;
+    size: 30px;
+    flex-direction: column;
+    font-size: 50px;
+    margin-right: 20px;
+}
+li {
+    display: inline-block;
+    flex-direction: row;
+    margin: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+a :hover {
+    color: rgb(175, 16, 175);
+    transition: 0.5s all;
+
+}
+#conta {
+    border: 2px solid rgb(175, 16, 175);
+    border-radius: 15px;
+    padding: 10px;
+}
+#conta :hover {
+    background-color: rgb(175, 16, 175);
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2 { 
+    padding-bottom: 0.100px;
+    font-size: 56px;
+    line-height: 10px;
+}
+#hd1 {
+    color: rgb(175, 16, 175);
+    line-height: 40px;
+
+}
+p {
+    line-height: 18px;
+    max-width: 500px;
+}
+
+img {
+    width: 500px;
+    margin-left: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(175, 16, 175);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+form [type="submit"] :hover {
+    cursor: pointer;
+}
+input {
+    margin-top: 10px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px; 
+}
+
+.pokomon {
+    flex-direction: column;
+    line-height: 5px;
+    display: flex;
+    max-width: 500px;
+}.espace {
+    line-height: 10px;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(61, 61, 61);
+    max-width: 50%;
+    margin: 5px 10px 5px 20px;
+}
+p.espace {
+    border-radius: 15px;
+    background-color: rgb(61, 61, 61);
+    padding: 12px;
+}
+.help {
+    margin-bottom: 0.5px
+}
+
+.pokomon :hover {
+    background-color: rgb(114, 114, 114);
+}
